@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FILTERGRAPH>
-  <FILTER uid="1" x="0.5" y="0.1">
+  <FILTER uid="1" x="0.4775" y="0.0625">
     <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
@@ -61,12 +61,29 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.56375" y="0.4032258064516129">
+  <FILTER uid="5" x="0.56375" y="0.4032258064516129" uiLastX_Normal="74"
+          uiLastY_Normal="400" uiopen_Normal="0">
     <PLUGIN name="Multi_Band_Compressor" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="C:\Program Files\Common Files\VST3\Multi_Band_Compressor.vst3"
-            uniqueId="f4a0eb21" isInstrument="0" fileTime="17e33823849" infoUpdateTime="17e338edf55"
+            uniqueId="f4a0eb21" isInstrument="0" fileTime="17e33fbdaf0" infoUpdateTime="17e33fc5289"
             numInputs="2" numOutputs="2" isShell="0" uid="e95463dd"/>
-    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <STATE>423.VMjLg3Y....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HyLy3BTEwlXmAiUYoWUrIVdA4hKAAkKTETRUAUSAAkKBolQY4BQtHTQDQzX5UTLXEWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3BTR4RPtPUPIUETMEDTtHjZFkkKDYWPEgTUXo2ZwDlKXcEVxU0UY4BQPIDQt3hKt3hKt3BRBAkKtTETRUDUS4BQl4xaQYjKAoFTAIUUFE1ZEEiXqEjYic1cVM1ZAAkKIAkKt3hKt3hKtnWXtDjKTETRUAUSAAkKBolQY4BQ1ITQPUjV3UULh4FNFElZAY1XmcmUisVPP4RRP4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVPP4RPHQEY1UTLhkWPP4RPL4hKi4hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQFwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="6" x="0.5925" y="0.1995967741935484" uiLastX_Normal="285"
+          uiLastY_Normal="80" uiopen_Normal="0">
+    <PLUGIN name="AudioFilePlayer" format="VST3" category="Fx" manufacturer="Matkat Music LLC"
+            version="1.0.0" file="C:\Program Files\Common Files\VST3\AudioFilePlayer.vst3"
+            uniqueId="79fe81c" isInstrument="0" fileTime="17e33a0837d" infoUpdateTime="17e33fc528a"
+            numInputs="2" numOutputs="2" isShell="0" uid="e95d02c7"/>
+    <STATE>292.VMjLgrQ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DyL03BTIISX1UEaho2ZVkUdAAkKAwDUigWRWkEcQ0VTucmUY4BQ1sTQTolSh0DLgQ2XwHlXEolXu0zQiUWSrI1YQIiXlwTZLYmcEwzLtfFTxU0UYkWPnEELMEiVqkjLhQmdFIVdt3hKt3hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQF4RPDYFTzDzUXkWSG4RPDYmKtnWPt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgEOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>
@@ -78,4 +95,6 @@
   </FILTER>
   <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="5" dstChannel="1"/>
 </FILTERGRAPH>
